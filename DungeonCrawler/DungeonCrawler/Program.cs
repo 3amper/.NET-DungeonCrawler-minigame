@@ -1,16 +1,15 @@
 
 
-
 using System.Diagnostics.Metrics;
-
+Console.Title = "ver 1.1";
 Console.WriteLine("Hello, World!");
 
 ConsoleKeyInfo inputKey;
 string convertedInput = "a";
-string inputType = "Key";
+bool cheats = true;
 int charX = 1;
 int charY = 2;
-int visionLength = 4;
+int visionLength = 5;
 string[,] map = { { "##", "##", "##", "##", "##", "##", "##", "##", "##", "##", "##", "##", "##" },
                   { "##", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "##" },
                   { "##", "  ", "  ", "##", "##", "##", "##", "  ", "  ", "  ", "  ", "  ", "##" },
@@ -73,9 +72,9 @@ switch (convertedInput)
         break;
 
     case "Delete":
-        if (inputType == "Key")
-        {
-            inputType = "Text";
+        
+        
+            
             convertedInput = Console.ReadLine();
             switch (convertedInput)
             {
@@ -84,12 +83,18 @@ switch (convertedInput)
                     visionLength = int.Parse(Console.ReadLine());
                     break;
 
-                
+                case "tp":
+                    if(cheats)
+                    {
+                    Console.WriteLine("X coordinate:");
+                    charX = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Y coordinate:");
+                    charY = int.Parse(Console.ReadLine());
+                }
+
+                break;
             }
 
-
-            
-        }
 
         break;
 
@@ -99,7 +104,7 @@ switch (convertedInput)
 
         break;
 }
-inputType = "Key";
+
 
 Draw();
 goto A;
@@ -108,9 +113,18 @@ goto A;
 void Draw()
     {
     Console.Clear();
-        for (int i = -visionLength; i < visionLength; i++)
+
+    Console.Write("╔");
+    for(int k = -visionLength * 2; k < visionLength * 2 + 2; k++)
+    {
+        Console.Write("═");
+    }
+    Console.WriteLine("╗");
+
+        for (int i = -visionLength; i < visionLength+1; i++)
         {
-            for (int j = -visionLength; j < visionLength; j++)
+        Console.Write("║");
+            for (int j = -visionLength; j < visionLength+1; j++)
             {
                 if(i==0 && j == 0)
                 {
@@ -119,13 +133,24 @@ void Draw()
                 else if(charY + i > -1 && charX + j > -1 && charY + i < LengthY && charX + j < LengthX)
                 { 
                     Console.Write(map[charY+i, charX+j]);
-                }
+            }
+                else
+                {
+                Console.Write("  ");
+            }
             
             }
-            Console.WriteLine();
+            Console.WriteLine("║");
         }
+
+    Console.Write("╚");
+    for (int k = -visionLength * 2; k < visionLength * 2 + 2; k++)
+    {
+        Console.Write("═");
+    }
+    Console.WriteLine("╝");
+
     //Console.WriteLine(convertedInput);
 
 }
-
 
