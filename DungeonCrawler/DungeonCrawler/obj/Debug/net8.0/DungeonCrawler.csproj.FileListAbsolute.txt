@@ -1,0 +1,14 @@
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\bin\Debug\net8.0\DungeonCrawler.exe
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\bin\Debug\net8.0\DungeonCrawler.deps.json
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\bin\Debug\net8.0\DungeonCrawler.runtimeconfig.json
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\bin\Debug\net8.0\DungeonCrawler.dll
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\bin\Debug\net8.0\DungeonCrawler.pdb
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.AssemblyInfoInputs.cache
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.AssemblyInfo.cs
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.csproj.CoreCompileInputs.cache
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.dll
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\refint\DungeonCrawler.dll
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.pdb
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\DungeonCrawler.genruntimeconfig.cache
+C:\Users\sar06\source\repos\DungeonCrawler\DungeonCrawler\obj\Debug\net8.0\ref\DungeonCrawler.dll
